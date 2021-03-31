@@ -1,0 +1,29 @@
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+body {
+    background: #A9A9A9;
+    font-family:'Poppins', sans-serif;
+}
+
+
+
+header {/*O header: Ele é o cabeçalho*/
+
+ background: #2d4a22;
+ padding: 2rem      3rem     4rem   5rem;
+ /*       esquerda, direita, cima, baixo    */
+}
+
+#logo {
+ color: #fff;
+ font-weight: 100;
+}
+
+
+
