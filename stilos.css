@@ -1,9 +1,19 @@
-* { 
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+:root{ /*Faz referencia a tah <html>*/
+
+    --dark-blue: #363f5f;
+}
+
+
+
+
+.container {/*  .NomeDaClass  o ponto é a forma que faz referencia a classe */
+    
+    width: min(90vw, 800px);
+    margin: auto;
 
 }
+
+
 
 
 body {
@@ -12,18 +22,63 @@ body {
 }
 
 
-
 header {/*O header: Ele é o cabeçalho*/
 
  background: #2d4a22;
- padding: 2rem      3rem     4rem   5rem;
- /*       esquerda, direita, cima, baixo    */
+ padding: 6rem  10rem;
+ text-align: center;
 }
 
 #logo {
  color: #fff;
  font-weight: 100;
 }
+/*=============H2=============*/
+h2{
+    margin-top: 3.2rem;
+    margin-top: 0.8rem;
+    color: var( --dark-blue);
+    font-weight: normal;
+}
+
+.card h3{
+font-weight: normal;
+font-size: 1rem;
+}
+
+.card p {
+    font-size: 1rem;
+    line-height: 3rem;
+}
+
+/*=============Balance=============*/
+
+#balance {
+margin-top: -8rem;
+
+}
+
+
+#balance h2{
+
+    color: white;
+    margin-top:0;
+}
+
+/*=============Balance=============*/
+.card {
+    background: white;
+    padding: 1rem 2rem;
+    border-radius: 0.25rem;
+    margin-bottom: 2rem;
+}
 
 
 
+
+/*=============FOOTER=============*/
+
+footer{
+
+    text-align: center;
+}
