@@ -3,17 +3,12 @@
     --dark-blue: #363f5f;
 }
 
-
-
-
 .container {/*  .NomeDaClass  o ponto é a forma que faz referencia a classe */
     
     width: min(90vw, 800px);
     margin: auto;
 
 }
-
-
 
 
 body {
@@ -47,8 +42,15 @@ font-size: 1rem;
 }
 
 .card p {
-    font-size: 1rem;
+    font-size: 2rem;
     line-height: 3rem;
+
+    margin-top: 1rem;
+} 
+
+.card.green {
+    background: #49AA26;
+    color: white;
 }
 
 /*=============Balance=============*/
@@ -72,9 +74,12 @@ margin-top: -8rem;
     border-radius: 0.25rem;
     margin-bottom: 2rem;
 }
+/*=============FOOTER=============*/
 
+#data-table {
+    width: 100%;
 
-
+}
 
 /*=============FOOTER=============*/
 
